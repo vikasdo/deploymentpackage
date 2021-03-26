@@ -3,7 +3,8 @@ aws_key=$2
 aws_access_key=$3
 aws_access_secret=$4
 local_path=$5
-
+echo $aws_access_key
+echo $local_path
 # Remove any existing versions of a ZIP
 rm -rf $local_path
 
